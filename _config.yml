@@ -82,7 +82,9 @@ analytics:
 author:
   name             : "Yu Zhang"
   avatar           : "zy.jpg"
-  bio              : "Ph.D. Student \n Department of Computer Science \n University of Kentucky"
+  subline          : "Ph.D. Student"
+  subline          : "Department of Computer Science"
+  subline          : "University of Kentucky"
   location         : "Lexington, KY, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
