@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Yu Zhang"
 title_separator          : "-"
-name                     : "Yu Zhang"
-description              : "An amazing person."
-url                      : https://yuzhang03.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yu Zhang"
+description              : &description "PhD student at the University of Kentucky"
+url                      : https://yuzhang03.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yuzhang03/yuzhang03.github.io/"
+repository               : "yuzhang03.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -46,8 +46,8 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-# atom_feed:
-#   path                   : # blank (default) uses feed.xml
+atom_feed:
+  path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification :
@@ -82,13 +82,15 @@ analytics:
 author:
   name             : "Yu Zhang"
   avatar           : "me.png"
-  bio              : "Ph.D. Student</br>Computer Science</br>University of Kentucky"
-  location         : "Lexington, KY, USA"
+  bio1             : "Ph.D. Student"
+  bio2             : "Computer Science"
+  bio3             : "University of Kentucky"
+  location         : "Lexington, Kentucky"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    :  #"http://yourfullgooglescholarurl.com"
-  email            : "y.zhang@uky.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           : 
+  googlescholar    : #"https://scholar.google.com/citations?user=7Tl_XtoAAAAJ&hl=en"
+  email            : "y.zhang at uky.edu"
+  researchgate     : #"https://www.researchgate.net/profile/Hanzi_Mao"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +98,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"academicpages"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/yu-zhang-a2421111a/
-  orcid            : #"http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/yu-zhang-a2421111a/"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -309,3 +311,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+theme: jekyll-theme-minimal

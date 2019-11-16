@@ -100,6 +100,10 @@
   padding-right: 25px;
   line-height: 1;
 
+  .author__subline {
+    margin: 0 !important;
+  } 
+
   @include breakpoint($large) {
     display: block;
     width: 100%;
