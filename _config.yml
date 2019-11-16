@@ -109,7 +109,9 @@ analytics:
 author:
   name             : "Yu Zhang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Student\nDepartment of Computer Science\nUniversity of Kentucky"
+  bio              : "Ph.D. Student
+  Department of Computer Science
+  University of Kentucky"
   location         : "Lexington, KY, USA"
   # email            : y.zhang@uky.edu
   links:
@@ -120,8 +122,8 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://yuzhang03.github.io/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      # url: "https://instagram.com/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://instagram.com/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
