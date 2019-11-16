@@ -17,10 +17,11 @@ I love climbing, hiking, and music.
 
 Recent News
 ======
-* 11/2019: One paper got accepted to the LiDAR workshop at IEEE BigData 2019.
-* 10/2019: Two papers got accepted to BIBM 2019.
-* 08/2019: A scientific abstract got accepted for oral presentation at C-MIMI 2019.
-* 07/2019: A scientific abstract got accepted for oral presentation at RSNA 2019. 
+* 11/2019: One paper gets accepted to the LiDAR workshop at IEEE BigData 2019.
+* 10/2019: Two papers get accepted to BIBM 2019.
+* 09/2019: Give an oral presentation at C-MIMI 2019, Austin, Texas.
+* 08/2019: A scientific abstract gets accepted for oral presentation at C-MIMI 2019.
+* 07/2019: A scientific abstract gets accepted for oral presentation at RSNA 2019. 
 
 Publications
 ======
