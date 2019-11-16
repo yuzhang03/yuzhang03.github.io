@@ -13,7 +13,11 @@ I am a 3rd-year Ph.D. student in the [Department of Computer Science](https://ww
 
 Recent News
 ------
+<ul>
+  <li>A scientific abstract got accepted by C-MIMI 2019 for oral presentation.</li>
+  <li>A scientific abstract got accepted by RSNA 2019 for oral presentation.</li>
+  <li>Milk</li>
+</ul>
 
-A scientific abstract got accepted by C-MIMI 2019 for oral presentation.</br>
-A scientific abstract got accepted by RSNA 2019 for oral presentation.
+
 

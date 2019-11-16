@@ -1,22 +1,12 @@
 # main links links
 main:
+  - title: "Home"
+    url: https://yuzhang03.github.io/
+
   - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+    url: publications
     
   - title: "CV"
-    url: /cv/
+    url: cv.pdf
     
-  - title: "Guide"
-    url: /markdown/
+
