@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Yu Zhang"
 title_separator          : "-"
-name                     : &name "Yu Zhang"
-description              : &description "An amazing person."
+name                     : "Yu Zhang"
+description              : "An amazing person."
 url                      : https://yuzhang03.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yuzhang03/yuzhang03.github.io/"
@@ -82,9 +82,7 @@ analytics:
 author:
   name             : "Yu Zhang"
   avatar           : "zy.jpg"
-  subline          : "Ph.D. Student"
-  subline          : "Department of Computer Science"
-  subline          : "University of Kentucky"
+  bio              : "Ph.D. Student</br>Department of Computer Science</br>University of Kentucky"
   location         : "Lexington, KY, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
