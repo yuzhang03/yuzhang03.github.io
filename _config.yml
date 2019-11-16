@@ -20,7 +20,7 @@ title                    : "Yu Zhang"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yu Zhang"
-description              : "An amazing person."
+description              : "An amazing Site."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "Yu Zhang"
   avatar           : "./images/zy.jpg"
-  bio              : "Ph.D. Student
-  Department of Computer Science
-  University of Kentucky"
+  bio              : "Ph.D. Student"
+  bio              : "Department of Computer Science"
+  bio              : "University of Kentucky"
   location         : "Lexington, KY, USA"
   # email            : y.zhang@uky.edu
   links:
-    - label: "Email"
+    - label: "Email: y.zhang@uky.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:y.zhang@uky.edu
     - label: "Website"
@@ -123,7 +123,7 @@ author:
       url: "https://yuzhang03.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://instagram.com/"
+      url: "https://www.linkedin.com/in/yu-zhang-a2421111a/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url: "https://twitter.com/"
@@ -293,7 +293,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
