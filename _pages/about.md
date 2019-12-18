@@ -17,6 +17,7 @@ I love climbing, hiking, and music.
 
 Recent News
 ======
+* 12/2019: Gave an oral presentation at IEEE BigData LiDAR Workshop 2019, Los Angeles, California.
 * 11/2019: One paper got accepted to the LiDAR workshop at IEEE BigData 2019.
 * 10/2019: Two papers got accepted to BIBM 2019.
 * 09/2019: Gave an oral presentation at C-MIMI 2019, Austin, Texas.
