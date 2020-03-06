@@ -27,7 +27,7 @@ Recent News
 
 Publications
 ======
-1. Xiaoqin, Wang, Gongbo Liang, **Yu Zhang**, Hunter Blanton, Zachary Bessinger, Nathan Jacobs. "Inconsistent Performance of Deep Learning Models on Mammogram Classification". In Journal of the American College of Radiology, 2020.
+1. Xiaoqin Wang, Gongbo Liang, **Yu Zhang**, Hunter Blanton, Zachary Bessinger, Nathan Jacobs. "Inconsistent Performance of Deep Learning Models on Mammogram Classification". In Journal of the American College of Radiology, 2020.
 1. **Yu Zhang**, Gongbo Liang, Tawfiq Salem, Nathan Jacobs.  "Defense-PointNet: Protecting Point-Net Against Adversarial Attacks". In IEEE International Conference on Big Data (BigData) Workshop: The Next Frontier of Big Data From LiDAR, 2019. [[arXiv]](https://arxiv.org/abs/2002.11881)
 1. **Yu Zhang**, Xiaoqin Wang, Hunter Blanton, Gongbo Liang, Xin Xing, Nathan Jacobs. "2D Convolutional Neural Networks for 3D Digital Breast Tomosynthesis Classification". In IEEE International Conference of Bioinformatics and Biomedicine (BIBM), 2019. [[arXiv]](https://arxiv.org/abs/2002.12314)
 1. Gongbo Liang, Xiaoqin Wang, **Yu Zhang**, Xin Xing, Hunter Blanton, Tawfiq Salem, Nathan Jacobs. "Joint 2D-3D Breast Cancer Classification". In IEEE International Conference of Bioinformatics and Biomedicine (BIBM), 2019. [[arXiv]](https://arxiv.org/abs/2002.12392)
