@@ -17,6 +17,7 @@ I love climbing, hiking, and music.
 
 Recent News
 ======
+* 04/2020: One paper got accepted to EMBC 2020.
 * 02/2020: One paper got accepted to Journal of the American College of Radiology.
 * 12/2019: Gave an oral presentation at IEEE BigData LiDAR Workshop 2019, Los Angeles, California.
 * 11/2019: One paper got accepted to the LiDAR workshop at IEEE BigData 2019.
@@ -27,6 +28,7 @@ Recent News
 
 Publications
 ======
+1. Gongbo Liang, Xiaoqin Wang, **Yu Zhang**, Nathan Jacobs. "Weakly-Supervised Self-Training for Breast Cancer Localization". In Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2020.
 1. Xiaoqin Wang, Gongbo Liang, **Yu Zhang**, Hunter Blanton, Zachary Bessinger, Nathan Jacobs. "Inconsistent Performance of Deep Learning Models on Mammogram Classification". In Journal of the American College of Radiology, 2020.
 1. **Yu Zhang**, Gongbo Liang, Tawfiq Salem, Nathan Jacobs.  "Defense-PointNet: Protecting Point-Net Against Adversarial Attacks". In IEEE International Conference on Big Data (BigData) Workshop: The Next Frontier of Big Data From LiDAR, 2019. [[arXiv]](https://arxiv.org/abs/2002.11881)
 1. **Yu Zhang**, Xiaoqin Wang, Hunter Blanton, Gongbo Liang, Xin Xing, Nathan Jacobs. "2D Convolutional Neural Networks for 3D Digital Breast Tomosynthesis Classification". In IEEE International Conference of Bioinformatics and Biomedicine (BIBM), 2019. [[arXiv]](https://arxiv.org/abs/2002.12314)
