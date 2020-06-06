@@ -10,7 +10,7 @@ redirect_from:
 
 I am a 3rd-year Ph.D. student in the [Department of Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), working under the supervision of [Dr. Nathan Jacobs](http://cs.uky.edu/~jacobs/). My research focuses on deep learning and computer vision, specifically on unsupervised domain adaptation, adversarial attacks, point cloud, astrophysics data and medical image analysis.
 
-I obtained my Bachelor's degree in Telecommunications Engineering from [Northeastern University](http://english.neu.edu.cn/), China in June 2017.
+I obtained my Bachelor's degree in Communication Engineering from [Northeastern University](http://english.neu.edu.cn/), China in June 2017.
 
 I love climbing, hiking, and music.
 
