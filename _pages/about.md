@@ -12,7 +12,7 @@ I am a 3rd-year Ph.D. student in the [Department of Computer Science](https://ww
 
 I obtained my Bachelor's degree in Communication Engineering from [Northeastern University](http://english.neu.edu.cn/), China in June 2017.
 
-I love hiking, and music.
+I love hiking and music.
 
 
 Recent News
