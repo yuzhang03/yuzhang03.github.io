@@ -12,11 +12,12 @@ I am a 3rd-year Ph.D. student in the [Department of Computer Science](https://ww
 
 I obtained my Bachelor's degree in Communication Engineering from [Northeastern University](http://english.neu.edu.cn/), China in June 2017.
 
-I love hiking and music.
+I enjoy hiking and music.
 
 
 Recent News
 ======
+* 07/2020: One paper got accepted to BMVC 2020.
 * 06/2020: One paper got accepted to ICML UDL workshop 2020.
 * 04/2020: One paper got accepted to EMBC 2020.
 * 02/2020: One paper got accepted to Journal of the American College of Radiology.
@@ -29,6 +30,7 @@ Recent News
 
 Publications
 ======
+1. Gongbo Liang, **Yu Zhang**, Xiaoqin Wang, Nathan Jacobs. "Improved Trainable Calibration Method for Neural Networks". In The British Machine Vision Conference (BMVC), 2020.
 1. Gongbo Liang, **Yu Zhang**, Nathan Jacobs. "Neural Network Calibration for Medical Imaging Classification Using DCA Regularization". In International Conference of Machine Learning (ICML) workshop: Uncertainty and Robustness in Deep Learning, 2020.
 1. Gongbo Liang, Xiaoqin Wang, **Yu Zhang**, Nathan Jacobs. "Weakly-Supervised Self-Training for Breast Cancer Localization". In Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2020.
 1. Xiaoqin Wang, Gongbo Liang, **Yu Zhang**, Hunter Blanton, Zachary Bessinger, Nathan Jacobs. "Inconsistent Performance of Deep Learning Models on Mammogram Classification". In Journal of the American College of Radiology, 2020.
