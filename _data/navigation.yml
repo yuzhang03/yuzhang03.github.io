@@ -18,5 +18,5 @@ main:
   - title: "CV"
     url: /cv.pdf
     
-  # - title: "Guide"
-  #   url: /markdown/
+  #- title: "calibration"
+    url: /calibration.html/
