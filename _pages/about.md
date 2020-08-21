@@ -30,7 +30,7 @@ Recent News
 
 Publications
 ======
-1. Gongbo Liang, **Yu Zhang**, Xiaoqin Wang, Nathan Jacobs. "Improved Trainable Calibration Method for Neural Networks". In The British Machine Vision Conference (BMVC), 2020.
+1. Gongbo Liang, **Yu Zhang**, Xiaoqin Wang, Nathan Jacobs. "Improved Trainable Calibration Method for Neural Networks on Medical Imaging Classification". In The British Machine Vision Conference (BMVC), 2020.
 1. Gongbo Liang, **Yu Zhang**, Nathan Jacobs. "Neural Network Calibration for Medical Imaging Classification Using DCA Regularization". In International Conference of Machine Learning (ICML) workshop: Uncertainty and Robustness in Deep Learning, 2020.
 1. Gongbo Liang, Xiaoqin Wang, **Yu Zhang**, Nathan Jacobs. "Weakly-Supervised Self-Training for Breast Cancer Localization". In Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2020.
 1. Xiaoqin Wang, Gongbo Liang, **Yu Zhang**, Hunter Blanton, Zachary Bessinger, Nathan Jacobs. "Inconsistent Performance of Deep Learning Models on Mammogram Classification". In Journal of the American College of Radiology, 2020.
