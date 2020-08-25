@@ -22,6 +22,7 @@ Recent News
 * 06/2020: One paper got accepted to ICML UDL workshop 2020.
 * 04/2020: One paper got accepted to EMBC 2020.
 * 02/2020: One paper got accepted to Journal of the American College of Radiology.
+
 <!-- * 12/2019: Gave an oral presentation at IEEE BigData LiDAR Workshop 2019, Los Angeles, California.
 * 11/2019: One paper got accepted to the LiDAR workshop at IEEE BigData 2019.
 * 10/2019: Two papers got accepted to BIBM 2019.
