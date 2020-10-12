@@ -17,6 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
+* 10/2020: One paper got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
 * 07/2020: One paper got accepted to BMVC 2020.
 * 06/2020: One paper got accepted to ICML UDL workshop 2020.
