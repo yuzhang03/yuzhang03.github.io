@@ -17,7 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
-* 10/2020: One paper got accepted to NeurIPS Machine learning and Physical Sciences workshop.
+* 10/2020: One paper got accepted to a NeurIPS workshop.
 * 10/2020: One paper got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
 * 07/2020: One paper got accepted to BMVC 2020.
