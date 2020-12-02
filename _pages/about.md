@@ -17,7 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
-* 12/2020: Passed QE!
+* 12/2020: Succesfully defended the PhD proposal!
 * 10/2020: One paper got accepted to a NeurIPS workshop.
 * 10/2020: One paper got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
