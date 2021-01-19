@@ -8,11 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<<<<<<< HEAD
 I am a 4th-year Ph.D. Candidate in the [Department of Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), working under the supervision of [Dr. Nathan Jacobs](http://cs.uky.edu/~jacobs/). My research focuses on deep learning and computer vision, specifically on unsupervised domain adaptation, adversarial attacks, point cloud, astrophysics data and medical image analysis.
-=======
-I am a Ph.D. Candidate in the [Department of Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), working under the supervision of [Dr. Nathan Jacobs](http://cs.uky.edu/~jacobs/). My research focuses on deep learning and computer vision, specifically on unsupervised domain adaptation, adversarial attacks, point cloud, astrophysics data and medical image analysis.
->>>>>>> de8d693faa28b11200fe20e7a444629d242309a6
 
 I obtained my Bachelor's degree from [Northeastern University](http://english.neu.edu.cn/), China in June 2017.
 
@@ -21,13 +17,9 @@ I enjoy hiking and music.
 
 Recent News
 ======
-<<<<<<< HEAD
-* 12/2020: Passed QE and become a Ph.D. candidate!
-=======
 * 12/2020: Succesfully defended the PhD proposal!
->>>>>>> de8d693faa28b11200fe20e7a444629d242309a6
-* 10/2020: [One paper](https://yuzhang03.github.io/icpr2020/galaxy.html) got accepted to a NeurIPS workshop.
-* 10/2020: One paper got accepted to ICPR 2020.
+* 10/2020: One paper got accepted to a NeurIPS workshop.
+* 10/2020: [One paper](https://yuzhang03.github.io/icpr2020/galaxy.html) got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
 * 07/2020: One paper got accepted to BMVC 2020.
 * 06/2020: One paper got accepted to ICML UDL workshop 2020.
