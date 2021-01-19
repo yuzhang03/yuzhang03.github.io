@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 4th-year Ph.D. student in the [Department of Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), working under the supervision of [Dr. Nathan Jacobs](http://cs.uky.edu/~jacobs/). My research focuses on deep learning and computer vision, specifically on unsupervised domain adaptation, adversarial attacks, point cloud, astrophysics data and medical image analysis.
+I am a 4th-year Ph.D. Candidate in the [Department of Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), working under the supervision of [Dr. Nathan Jacobs](http://cs.uky.edu/~jacobs/). My research focuses on deep learning and computer vision, specifically on unsupervised domain adaptation, adversarial attacks, point cloud, astrophysics data and medical image analysis.
 
 I obtained my Bachelor's degree from [Northeastern University](http://english.neu.edu.cn/), China in June 2017.
 
@@ -17,6 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
+* 12/2020: Passed QE and become a Ph.D. candidate!
 * 10/2020: One paper got accepted to a NeurIPS workshop.
 * 10/2020: One paper got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
