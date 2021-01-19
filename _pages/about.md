@@ -26,7 +26,7 @@ Recent News
 =======
 * 12/2020: Succesfully defended the PhD proposal!
 >>>>>>> de8d693faa28b11200fe20e7a444629d242309a6
-* 10/2020: One paper got accepted to a NeurIPS workshop.
+* 10/2020: [One paper](https://yuzhang03.github.io/icpr2020/galaxy.html) got accepted to a NeurIPS workshop.
 * 10/2020: One paper got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
 * 07/2020: One paper got accepted to BMVC 2020.
