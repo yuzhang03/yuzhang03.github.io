@@ -19,7 +19,7 @@ Recent News
 ======
 * 09/2021: One paper got accepted to IEEE Journal of Biomedical and Health Informatics.
 * 04/2021: One paper got accepted to CVPR NTIRE Workshop.
-* 12/2020: Succesfully defended the PhD proposal!
+* 12/2020: Succesfully defended my PhD proposal!
 * 10/2020: One paper got accepted to a NeurIPS workshop.
 * 10/2020: [One paper](https://yuzhang03.github.io/icpr2020/galaxy.html) got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
