@@ -17,6 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
+* 10/2021: One paper got accepted to BMVC 2021!
 * 09/2021: One paper got accepted to IEEE Journal of Biomedical and Health Informatics.
 * 04/2021: One paper got accepted to CVPR NTIRE Workshop.
 * 12/2020: Succesfully defended my PhD proposal!
