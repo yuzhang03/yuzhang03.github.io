@@ -17,6 +17,8 @@ I enjoy hiking and music.
 
 Recent News
 ======
+* 03/2022: One paper of astrophysics got accepted to MNRAS.
+* 01/2022: One paper of medical imaging got accepted to ISBI.
 * 10/2021: [One paper](https://yuzhang03.github.io/dfa-ssda/) got accepted to BMVC 2021!
 * 09/2021: One paper got accepted to IEEE Journal of Biomedical and Health Informatics.
 * 04/2021: One paper got accepted to CVPR NTIRE Workshop.
