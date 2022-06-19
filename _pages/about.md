@@ -17,7 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
-* 05/2022: Summer internship at Siemens Healtineers!
+* 05/2022: Start the summer internship at Siemens Healtineers!
 * 03/2022: One paper of astrophysics got accepted to MNRAS.
 * 01/2022: One paper of medical imaging got accepted to ISBI.
 * 10/2021: [One paper](https://yuzhang03.github.io/dfa-ssda/) got accepted to BMVC 2021!
