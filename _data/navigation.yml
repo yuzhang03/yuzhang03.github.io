@@ -15,8 +15,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
-    url: /cv_compact.pdf
+  # - title: "CV"
+  #   url: /cv_compact.pdf
     
   # - title: "Publications"
   #   url: /calibration.html/
