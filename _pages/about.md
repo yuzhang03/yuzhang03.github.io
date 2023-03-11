@@ -17,7 +17,7 @@ I enjoy hiking and music.
 
 Recent News
 ======
-* 03/2022: Started a new job as a Machine Learning Engineer at Bastian Solutions in Boise, Idaho!
+* 03/2022: Started a new job in Boise, Idaho!
 * 02/2022: Successfully defended my PhD!
 * 05/2022: Start the summer internship at Siemens Healtineers.
 * 03/2022: One paper of astrophysics got accepted to MNRAS.
@@ -25,14 +25,14 @@ Recent News
 * 10/2021: [One paper](https://yuzhang03.github.io/dfa-ssda/) got accepted to BMVC 2021!
 * 09/2021: One paper got accepted to IEEE Journal of Biomedical and Health Informatics.
 * 04/2021: One paper got accepted to CVPR NTIRE Workshop.
-* 12/2020: Succesfully defended my PhD proposal!
+<!-- * 12/2020: Succesfully defended my PhD proposal!
 * 10/2020: One paper got accepted to a NeurIPS workshop.
 * 10/2020: [One paper](https://yuzhang03.github.io/icpr2020/galaxy.html) got accepted to ICPR 2020.
 * 08/2020: One paper got accepted to MNRAS.
 * 07/2020: One paper got accepted to BMVC 2020.
 * 06/2020: One paper got accepted to ICML UDL workshop 2020.
 * 04/2020: One paper got accepted to EMBC 2020.
-* 02/2020: One paper got accepted to Journal of the American College of Radiology.
+* 02/2020: One paper got accepted to Journal of the American College of Radiology. -->
 
 <!-- * 12/2019: Gave an oral presentation at IEEE BigData LiDAR Workshop 2019, Los Angeles, California.
 * 11/2019: One paper got accepted to the LiDAR workshop at IEEE BigData 2019.
