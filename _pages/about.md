@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Candidate in [Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), working under the supervision of [Dr. Nathan Jacobs](https://jacobsn.github.io/). My research focuses on deep learning and computer vision, specifically on domain adaptation and multi-modal data modeling.
+I am a Machine Learning Engineer at [Bastian Solutions, a Toyota Advanced Logistics company](https://www.bastiansolutions.com/). I obtained my PhD in [Computer Science](https://www.engr.uky.edu/research-faculty/departments/computer-science/) at the [University of Kentucky](https://www.uky.edu/), under the supervision of [Dr. Nathan Jacobs](https://jacobsn.github.io/) in March 2023. My research focuses on deep learning and computer vision, specifically on domain adaptation and multi-modal data modeling.
 
 I obtained my Bachelor's degree from [Northeastern University](https://neu.edu.cn/), China in June 2017.
 
@@ -17,7 +17,9 @@ I enjoy hiking and music.
 
 Recent News
 ======
-* 05/2022: Start the summer internship at Siemens Healtineers!
+* 03/2022: Started a new job as a Machine Learning Engineer at Bastian Solutions in Boise, Idaho!
+* 02/2022: Successfully defended my PhD!
+* 05/2022: Start the summer internship at Siemens Healtineers.
 * 03/2022: One paper of astrophysics got accepted to MNRAS.
 * 01/2022: One paper of medical imaging got accepted to ISBI.
 * 10/2021: [One paper](https://yuzhang03.github.io/dfa-ssda/) got accepted to BMVC 2021!
