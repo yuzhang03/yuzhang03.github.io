@@ -25,6 +25,7 @@ Recent News
 * 10/2021: [One paper](https://yuzhang03.github.io/dfa-ssda/) got accepted to BMVC 2021!
 * 09/2021: One paper got accepted to IEEE Journal of Biomedical and Health Informatics.
 * 04/2021: One paper got accepted to CVPR NTIRE Workshop.
+
 <!-- * 12/2020: Succesfully defended my PhD proposal!
 * 10/2020: One paper got accepted to a NeurIPS workshop.
 * 10/2020: [One paper](https://yuzhang03.github.io/icpr2020/galaxy.html) got accepted to ICPR 2020.
