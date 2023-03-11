@@ -17,8 +17,8 @@ I enjoy hiking and music.
 
 Recent News
 ======
-* 03/2022: Started a new job in Boise, Idaho!
-* 02/2022: Successfully defended my PhD!
+* 03/2023: Started a new job in Boise, Idaho!
+* 02/2023: Successfully defended my PhD!
 * 05/2022: Start the summer internship at Siemens Healtineers.
 * 03/2022: One paper of astrophysics got accepted to MNRAS.
 * 01/2022: One paper of medical imaging got accepted to ISBI.
