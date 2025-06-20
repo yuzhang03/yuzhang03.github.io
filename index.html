@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Yu Zhang">
+  <meta name="description" content="Personal website of Yu Zhang, Assistant Professor in Computer Science at Boise State University.">
+  <meta name="keywords" content="Computer Vision, AI Research, Machine Learning, Domain Adaptation">
+
+  <title>Yu Zhang</title>
+  <link rel="icon" type="image/x-icon" href="images/logo2.ico">
+
+  <!-- ✅ Bootstrap 5.3.3 via jsDelivr -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <!-- ✅ Font Awesome 6.0.0-beta3 via jsDelivr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0-beta3/css/all.min.css">
+
+  <!-- ✅ Google Fonts with fallback -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  </noscript>
+</head>
+
+
+<body>
+    <style>
+        body {
+            font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        }
+
+        .heading {
+            word-wrap: break-word;
+            font-family: 'Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            white-space: nowrap;
+        }
+
+        .info-text {
+            margin-bottom: 10px;
+        }
+
+        .university-color {
+            color: #0033A0;
+        }
+
+        .link-list a {
+            margin-right: 5px;
+        }
+
+        .content-spacing {
+            margin-top: 30px;
+            /*margin-left: 20px;*/
+        }
+
+        .headshot {
+            max-width: 110%;
+            max-height: 110%;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #2B5597;
+        }
+
+        .navbar-toggler-icon {
+            filter: brightness(0) invert(1);
+        }
+
+    </style>
+
+    <!-- Navigation -->
+    <div id="navbar"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html?cacheBust=' + new Date().getTime())
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('navbar').innerHTML = content;
+            });
+        });
+    </script>
+
+    <!--  Please remove this part of code if you adapt from Yu Zhang's Website. This will track your visitors!!-->
+    <!--请将这段代码移除，这个是我自己track网站统计的。如果未移除，我将会看到你所有的网站访问-->
+    <!-- Begin Web-Stat code v 7.0 -->
+    <!-- <span id="wts1866123"></span>
+    <script>var wts=document.createElement('script');wts.async=true;
+        wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+        wts.onload = function(){ wtslog7(1866123,5); };
+    </script>
+    <noscript><a href="https://www.web-stat.com">
+        <img src="https://app.ardalio.com/7/5/1866123.png"
+            alt="Web-Stat traffic analysis"></a>
+    </noscript> -->
+    <!-- End Web-Stat code v 7.0 -->
+    <!--请将这段代码移除，这个是我自己track网站统计的。如果未移除我将会看到你所有的网站访问-->
+    <!--  Please remove this part of code if you adapt from Yu Zhang's Website. This will track your visitors!!-->
+
+    <div class="container">
+        <div class="row">
+            <!-- Entries Column -->
+            <div class="col-md-9 col-xs-12 content-spacing">
+                <div class="col">
+                    <div style="margin-bottom: 20px;">
+                        <img src="images/boisestate_campus.png" alt="Boise State University Campus" style="width: 100%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+<!--                        <strong style="color:#F28100;">⚠️ Important Notice:</strong>-->
+<!--                        <p style="margin-top:5px;">-->
+<!--                            I do <strong>not</strong> have any account on Twitter / X. Any account claiming to represent me on X is <strong style="color:red;">impersonating</strong> my identity and may spread false or misleading information, e.g., investment.-->
+<!--                        </p>-->
+<!--                        <hr>-->
+                        <p><strong style="color:#F28100";>About Me</strong>.
+                            I am a tenure-track Assistant Professor of Computer Science at <a href="https://www.boisestate.edu">Boise State University</a>. My research focuses on computer vision, efficient AI, multimodal AI, and their real-world applications. I bring extensive industry experience to my academic role. Prior to joining Boise State, I worked as a Machine Learning Engineer at <a href="https://www.bastiansolutions.com/">Bastian Solutions, a Toyota Automated Logistics company</a>, where I developed solutions in AI, computer vision, and robotics. I also completed an internship at <a href="https://www.siemens-healthineers.com/">Siemens</a>, focusing on AI for healthcare. I earned my Ph.D. in Computer Science from the <a href="https://www.uky.edu/">University of Kentucky</a> in March 2023, under the supervision of <a href="https://jacobsn.github.io/">Dr. Nathan Jacobs</a>.
+
+                            <!-- I obtained my Bachelor's degree from <a href="https://neu.edu.cn/">Northeastern University</a>, China in June 2017. -->
+                            
+                            In my free time, I enjoy outdoor activities across Idaho and the broader Pacific Northwest.
+                        </p>   
+                        
+                        <p><strong style="color:#F28100;">Experience</strong></p>
+                        <ul>
+                            <li>Assistant Professor, Boise State University, 2025 - Present</li>
+                            <li>Machine Learning Engineer, Bastian Solutions, A Toyota Automated Logistics Company, 2023 - 2025</li>
+                            <li>Intern, Siemens, Summer 2022</li>
+                            <li>Ph.D. in CS, University of Kentucky, 2017 - 2023</li>
+                            <li>Bachelor's, Northeastern University, China, 2013 - 2017</li>
+                        </ul>
+                        <p><strong style="color:#F28100;">Lab Openings</strong>. We are actively seeking for new members at all levels to join our <a href="lab.html">Lab</a>! We have a <span style="color: #F28100;">supportive culture</span> where you can do impactful research, learn new skills, and achieve your personal goals.</p>
+
+                        <div style="margin-left: 20px; margin-bottom: 15px;">
+                            <strong>PhD/Master Students (several <span style="color: #F28100;">fully funded Ph.D. positions</span> are currently available</u>):</strong>
+                            <ul style="margin-left: 20px;">
+                                <li>I welcome self-motivated students who are passionate about AI and computer vision to join my lab. See our <a href="lab.html">Lab</a> page for more details on how to apply.</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-left: 20px; margin-bottom: 15px;">
+                            <strong>Research Interns (flexible term, any time):</strong>
+                            <ul style="margin-left: 20px;">
+                                <li>We welcome both <b>undergraduate and graduate interns</b> from Boise State and other institutions. See our <a href="lab.html">Lab</a> page for more details on how to apply.</li>
+                                <li>The goal of a research internship is to design a project that aligns with both my lab’s goals and your interests, and that you can lead toward a publication.</li>
+                            </ul>
+                        </div>
+
+                        <!-- <div style="margin-left: 20px;">
+                            <strong>Application Process:</strong> To apply for either opportunities, complete the <a href="https://forms.gle/F2ZXqFWh9wgmUcHDA" style="color:#F28100;">Application Form</a>, email me after submitting the form, and review the <a href="lab.html">NICE Lab</a> website for more information before reaching out. <br>
+                        </div> -->
+                        <!-- <br> -->
+
+                        <p><strong style="color:#F28100;">Research Interests:</strong>
+                        My research aims on efficient and robust perception and decision-making for real-world autonomy.
+                        I am interested in a wide range of research fields from  computer vision, efficient AI, multimodal AI, robotics, and AI+X. Currently I am actively working on </p>
+
+                        <ol>
+                          <li>
+                            <strong>Domain Adaptive Computer Vision.</strong><br>
+                            The appearance of images can vary significantly due to factors such as lighting conditions, time of day, weather, viewpoint, and seasonal changes. These variations must be carefully considered and modeled when designing robust vision systems. I often refer to this challenge as a multi-domain adaptation problem. It presents a wide range of research opportunities, including unsupervised, semi-supervised, and few-shot learning approaches, as well as methods guided by large language models (LLMs) and vision-language models (VLMs), to train vision systems that are both robust and domain-adaptive.<br>
+                            <span style="color:#F28100;">
+                              <em><strong>Keywords:</strong> Domain Adaptation, Computer Vision, LLMs, VLMs</em>
+                            </span>
+                          </li>
+
+                          <li>
+                            <strong>Computer Vision in 3D and Robotics.</strong><br>
+                            Understanding the 3D structure of the world is fundamental for enabling intelligent robotic systems. Core 3D computer vision tasks such as depth estimation, pose regression, reconstruction, and point cloud understanding play a critical role in how robots perceive and interact with their environment. Advancing research in this area creates opportunities to explore self-supervised learning, multi-view and multi-modal fusion, uncertainty estimation, real-time 3D perception, and ultimately, achieving real-world autonomy.<br>
+                            <span style="color:#F28100;">
+                              <em><strong>Keywords:</strong> Robotics, 3D Vision, Point Cloud, Self-Supervised Learning</em>
+                            </span>
+                          </li>
+
+                          <li>
+                            <strong>Efficient and Secured Machine Learning and Edge AI.</strong><br>
+                            Designing efficient vision systems for Edge AI requires models that are compact, fast, and secured. Techniques such as quantization and pruning help reduce model size and computational cost, making real-time inference feasible on edge devices. Federated learning further enables distributed training without sharing raw data, enhancing privacy and scalability. Together, these approaches open up research opportunities in building lightweight, adaptive, and secured AI models that operate effectively across diverse and decentralized environments.<br>
+                            <span style="color:#F28100;">
+                              <em><strong>Keywords:</strong> Federated Learning, Efficient AI, AI Safety, Edge AI</em>
+                            </span>
+                          </li>
+                        </ol>
+
+                        <p><strong style="color:#F28100";>Collaboration with Me</strong>.
+                        I am open to research collaborations, invited talks, and other opportunities from both within and outside my institution. I believe that impactful research often grows from long-term, meaningful collaborations. If you're interested in working together or starting a conversation, feel free to drop me an email. Let’s connect!
+
+<!-- 
+                        <p><strong style="color:#F28100">Biography</strong>. <span id="bio-content"></span></p>
+                        <script>
+                            fetch('files/bio.txt')
+                                .then(response => response.text())
+                                .then(text => {
+                                    document.getElementById('bio-content').textContent = text;
+                                })
+                                .catch(error => {
+                                    console.error('Error loading biography:', error);
+                                    document.getElementById('bio-content').textContent = 'Biography content could not be loaded.';
+                                });
+                        </script> -->
+
+                        <hr>
+                        <h3 id="news"><i class="fas fa-newspaper"></i> Recent News</h3>
+                        <div class="news-container" style="height: 500px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px; background-color: #f9f9f9;">
+
+                            <p><strong>[06/2025]</strong>Dr. Zhang is attending CVPR 2025 in Nashville, TN.</p>
+                            <p><strong>[02/2025]</strong>One abstract got accepted to 2025 CAE in Cybersecurity Symposium – Charleston, South Carolina!</p>
+                            <p><strong>[06/2024]</strong>Dr. Zhang is attending CVPR 2024 in Seattle, WA.</p>
+                            <p><strong>[08/2023]</strong>One paper got accepted to BMVC 2023.</p>
+                            <p><strong>[07/2023]</strong>Dr. Zhang is attending IGARSS in Los Angeles and giving an oral presentation.</p>
+                            <p><strong>[04/2023]</strong>Two papers got accepted to IGARSS 2023!</p>
+                            <p><strong>[03/2023]</strong>Started a new job in Boise, Idaho!</p>
+                            <p><strong>[02/2023]</strong>Dr. Zhang Successfully defended his Ph.D.!</p>
+                            <p><strong>[05/2022]</strong>Start the summer internship at Siemens.</p>
+                            <p><strong>[03/2022]</strong>One paper on astrophysics got accepted to MNRAS.</p>
+                            <p><strong>[01/2022]</strong>One paper on medical imaging got accepted to ISBI.</p>
+                            <p><strong>[10/2021]</strong><a href="https://yuzhang03.github.io/dfa-ssda/">One paper</a> got accepted to BMVC 2021!</p>
+                            <p><strong>[09/2021]</strong>One paper got accepted to IEEE Journal of Biomedical and Health Informatics.</p>
+                            <p><strong>[04/2021]</strong>One paper got accepted to CVPR NTIRE Workshop.</p>
+                        </div>
+
+                        <hr>
+                            <!-- <h2 id="awards">&#127941; Awards and Grants</h2>
+
+                            <h5>As Principal Investigator (August 2023 onwards)</h5>
+                            <ul class="vert">
+                                <li><a href="https://sac.usc.edu/credif/">Capital One Research Awards</a>, 2024</li>
+                            </ul> -->
+                            <!-- Close any open divs as needed above this line -->
+                            <!--Insert footer-->
+        </div>
+    </div>
+            <div class="col-md-3 col-xs-12 content-spacing">
+                <div class="heading university-color">Yu Zhang</div>
+                <div class="row">
+                    <div class="col-md-10 col-xs-4">
+                        <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
+                    </div>
+                </div>
+                <div class="info-text">
+                    <i>Assistant Professor</i><br>
+                    <a href="https://www.boisestate.edu/coen-cs/"> Department of Computer Science</a><br>
+                    <a href="https://www.boisestate.edu/computing/">School of Computing</a><br>
+                    <a href="https://www.boisestate.edu/coen/"> College of Engineering</a><br>
+                    <p class="university-color"><strong><a href="https://www.boisestate.edu">Boise State University</a></strong></p>
+                    Boise, Idaho, USA<br>
+                    <b>Email</b>: <span id="email-placeholder"></span>
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var emailUser = 'yzhang';
+                        var emailHost = 'boisestate.edu';
+                        var emailElement = document.getElementById('email-placeholder');
+                        emailElement.innerHTML = '<a href="mailto:' + emailUser + '@' + emailHost + '">' + emailUser + '@' + emailHost + '</a>';
+                    });
+                    </script>
+                </div>
+                <div class="link-list">
+                    <a href="https://scholar.google.com/citations?user=9OegmjMAAAAJ&hl=en&authuser=1">Google Scholar</a> |
+                    <a href="files/bio.txt">Short Bio</a> |
+                    <!-- <a href="https://github.com/yuzhang03">GitHub</a> | -->
+                    <a href="https://www.linkedin.com/in/yuzh03/"> LinkedIn</a>
+                    <!-- <a href="https://www.xiaohongshu.com/user/profile/61716aad000000000201caae?xhsshare=CopyLink&appuid=61716aad000000000201caae&apptime=1693197943">小红书</a> | -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Insert footer-->
+    <div id="myFooter"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('footer.html?cacheBust=' + new Date().getTime())
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('myFooter').innerHTML = content;
+            })
+            .catch(error => {
+                console.error('Error loading footer:', error);
+                document.getElementById('myFooter').innerHTML = '<p>Error loading footer. Please host on a server.</p>';
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html?cacheBust=' + new Date().getTime())
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('navbar').innerHTML = content;
+            })
+            .catch(error => {
+                console.error('Error loading navbar:', error);
+                document.getElementById('navbar').innerHTML = '<p>Error loading navigation. Please host on a server.</p>';
+            });
+        });
+    </script>
+</body>
+</html>
