@@ -31,54 +31,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     </noscript>
+    <link rel="stylesheet" href="site.css">
 </head>
 
-<body>
-    <style>
-        body {
-            font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-        }
-
-        .heading {
-            word-wrap: break-word;
-            font-family: 'Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            white-space: nowrap;
-        }
-
-        .info-text {
-            margin-bottom: 10px;
-        }
-
-        .university-color {
-            color: #0033A0;
-        }
-
-        .link-list a {
-            margin-right: 5px;
-        }
-
-        .content-spacing {
-            margin-top: 30px;
-            /*margin-left: 20px;*/
-        }
-
-        .headshot {
-            max-width: 110%;
-            max-height: 110%;
-            margin: 0 auto;
-        }
-
-        a {
-            color: #2B5597;
-        }
-
-        .navbar-toggler-icon {
-            filter: brightness(0) invert(1);
-        }
-    </style>
+<body class="page-publications">
 
     <!-- Navigation -->
     <div id="navbar"></div>
@@ -93,12 +49,11 @@
         });
     </script>
 
-    <div class="container">
-        <div class="row">
+    <main class="site-shell page-layout">
             <!-- Entries Column -->
-            <div class="col-md-9 col-xs-12 content-spacing">
-                <div class="col">
-                    <h2 id="publications">&#127853; Publications</h2>
+            <div class="page-content">
+                <div class="page-copy">
+                    <h2 id="publications"><span class="page-heading-icon" aria-hidden="true">&#127853;</span> Publications</h2>
                     <p>See <a href="https://scholar.google.com/citations?user=9OegmjMAAAAJ">Google Scholar</a> for the
                         full publication list.
                     </p>
@@ -146,9 +101,9 @@
                     </p>
                     <h4 id="year-2026">2026</h4>
 
-                    <p>Jiahui Zhang, Gongbo Liang, <u>Yu Zhang</u>. "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping”. In <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop on WORLDS: World Models and Spatial Intelligence for Physical AI, 2026.</i> <span style="color: red;">(Best Paper Award)</span> <a href="https://arxiv.org/abs/2609.06820v2">arXiv</a>.
+                    <p>Jiahui Zhang, Gongbo Liang, <u>Yu Zhang</u>. "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping”. In <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop on WORLDS: World Models and Spatial Intelligence for Physical AI, 2026.</i> <span class="publication-award">(Best Paper Award)</span> <a href="https://arxiv.org/abs/2609.06820v2">arXiv</a>.
 
-                    <p>Jiahui Zhang, Bonian Han, Gongbo Liang, <u>Yu Zhang</u>. "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering”. In <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop: Space Exploration and Sustained Operations Beyond Earth, 2026.</i> <span style="color: red;">(Best Paper Runner-up)</span> <a href="https://arxiv.org/abs/2609.09069">arXiv</a>.
+                    <p>Jiahui Zhang, Bonian Han, Gongbo Liang, <u>Yu Zhang</u>. "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering”. In <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) Workshop: Space Exploration and Sustained Operations Beyond Earth, 2026.</i> <span class="publication-award">(Best Paper Runner-up)</span> <a href="https://arxiv.org/abs/2609.09069">arXiv</a>.
                     </p>
                     <p>Trevor Dove, Zhixiao Xie, Meng Tang, <u>Yu Zhang</u>, Xinyue Ye, Nathan Jacobs, Gongbo Liang. “Recent Advancements in Deep Learning for SAR-to-Optical Image Translation: A Systematic Literature Review (2021-2025)”. In <i>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), 2026.</i> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11479792">Link</a>
                     </p>
@@ -264,13 +219,9 @@
                     <hr>
                 </div>
             </div>
-            <div class="col-md-3 col-xs-12 content-spacing">
-                <div class="heading university-color">Yu Zhang</div>
-                <div class="row">
-                    <div class="col-md-10 col-xs-4">
-                        <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
-                    </div>
-                </div>
+            <aside class="profile" aria-label="Profile">
+                <div class="profile-name">Yu Zhang</div>
+                <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
                 <div class="info-text">
                     <i>Assistant Professor</i><br>
                     <a href="https://www.boisestate.edu/coen-cs/"> Department of Computer Science</a><br>
@@ -297,12 +248,9 @@
                     <a href="https://www.linkedin.com/in/yuzh03/"> LinkedIn</a>
                     <!-- <a href="https://www.xiaohongshu.com/user/profile/61716aad000000000201caae?xhsshare=CopyLink&appuid=61716aad000000000201caae&apptime=1693197943">小红书</a> | -->
                 </div>
-            </div>
-        </div>
-    </div>
+            </aside>
+    </main>
 
-    <!--Insert footer-->
-    <div id="myFooter"></div>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             fetch('footer.html?cacheBust=' + new Date().getTime())
@@ -326,13 +274,20 @@
         });
     </script>
 
-    <!-- begin code v 7.0 -->
-    <span id="wts2202831"></span>
-    <script>var wts = document.createElement('script'); wts.async = true;
-        wts.src = 'https://app.ardalio.com/wts7.js'; document.head.appendChild(wts);
-        wts.onload = function () { wtsl7(2202831, 1); };
-    </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
-    <!-- end code v 7.0 -->
+    <footer class="site-footer">
+        <div class="site-shell footer-layout">
+            <div id="myFooter"></div>
+            <div class="footer-tracker">
+                <!-- begin code v 7.0 -->
+                <span id="wts2202831"></span>
+                <script>var wts = document.createElement('script'); wts.async = true;
+                    wts.src = 'https://app.ardalio.com/wts7.js'; document.head.appendChild(wts);
+                    wts.onload = function () { wtsl7(2202831, 1); };
+                </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
+                <!-- end code v 7.0 -->
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

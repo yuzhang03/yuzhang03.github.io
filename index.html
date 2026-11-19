@@ -26,57 +26,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   </noscript>
+  <link rel="stylesheet" href="site.css">
 </head>
 
 
-<body>
-    <style>
-        body {
-            font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-        }
-
-        .heading {
-            word-wrap: break-word;
-            font-family: 'Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            white-space: nowrap;
-        }
-
-        .info-text {
-            margin-bottom: 10px;
-        }
-
-        .university-color {
-            color: #0033A0;
-        }
-
-        .link-list a {
-            margin-right: 5px;
-        }
-
-        .content-spacing {
-            margin-top: 30px;
-            /*margin-left: 20px;*/
-        }
-
-        .headshot {
-            max-width: 110%;
-            max-height: 110%;
-            margin: 0 auto;
-        }
-
-        a {
-            color: #2B5597;
-        }
-
-        .navbar-toggler-icon {
-            filter: brightness(0) invert(1);
-        }
-
-    </style>
-
+<body class="page-home">
     <!-- Navigation -->
     <div id="navbar"></div>
 
@@ -92,21 +46,22 @@
 
     
 
-    <div class="container">
-        <div class="row">
-            <!-- Entries Column -->
-            <div class="col-md-9 col-xs-12 content-spacing">
-                <div class="col">
+    <main class="site-shell page-layout">
+            <div class="page-content">
+                <div class="page-copy">
                     <!-- <div style="margin-bottom: 20px;">
                         <img src="images/boisestate_campus.png" alt="Boise State University Campus" style="width: 100%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
                     </div> -->
-                        <p><strong style="color:#F28100";>About Me</strong>.
+                        <section class="home-intro" aria-labelledby="about">
+                        <h1 class="section-title" id="about">About Me<span class="title-accent">.</span></h1>
+                        <p>
                             I am a tenure-track Assistant Professor of Computer Science at <a href="https://www.boisestate.edu">Boise State University</a>. My research spans computer vision, embodied AI, and geospatial AI. I bring extensive industry experience to my academic role. Prior to joining Boise State, I worked as a Machine Learning Engineer at <a href="https://toyota-automated-logistics.com/">Toyota Automated Logistics</a>, where I developed machine learning solutions for complex problems in computer vision and robotics. I earned my Ph.D. in Computer Science from the <a href="https://www.uky.edu/">University of Kentucky</a> in March 2023, with <a href="https://jacobsn.github.io/">Dr. Nathan Jacobs</a>.
 
                             <!-- I obtained my Bachelor's degree from <a href="https://neu.edu.cn/">Northeastern University</a>, China in June 2017. -->
                             
                             In my free time, I enjoy outdoor activities across Idaho and the broader Pacific Northwest.
-                        </p>   
+                        </p>
+                        </section>
                         
                         <!-- <p><strong style="color:#F28100;">Experience</strong></p>
                         <ul>
@@ -116,11 +71,16 @@
                             <li>Ph.D. in CS, University of Kentucky, 2017 - 2023</li>
                             <li>Bachelor's, Northeastern University, China, 2013 - 2017</li>
                         </ul> -->
-                        <p><strong style="color:#F28100";>Collaboration with Me</strong>.
-                        I am open to research collaborations, invited talks, and other opportunities from both within and outside my institution. I believe that impactful research often grows from long-term, meaningful collaborations. If you're interested in working together or starting a conversation, feel free to drop me an email. Let’s connect!
-
-                        
-                        <p> <strong style="color:#F28100;">Join My Lab</strong>. We always welcome new members at all levels to join my <a href="lab.html">Lab</a>! We encourage a <span style="color: #F28100;">supportive culture</span> where you can do impactful research, learn new skills, and achieve your personal goals.</p>
+                        <div class="home-links">
+                            <section aria-labelledby="collaboration">
+                                <h2 id="collaboration">Collaboration with Me<span class="title-accent">.</span></h2>
+                                <p>I am open to research collaborations, invited talks, and other opportunities from both within and outside my institution. I believe that impactful research often grows from long-term, meaningful collaborations. If you're interested in working together or starting a conversation, feel free to drop me an email. Let’s connect!</p>
+                            </section>
+                            <section aria-labelledby="join">
+                                <h2 id="join">Join My Lab<span class="title-accent">.</span></h2>
+                                <p>We always welcome new members at all levels to join my <a href="lab.html">Lab</a>! We encourage a <span class="text-accent">supportive culture</span> where you can do impactful research, learn new skills, and achieve your personal goals.</p>
+                            </section>
+                        </div>
 
                         <!-- <div style="margin-left: 20px; margin-bottom: 15px;">
                             <strong>PhD/Master Students (several <span style="color: #F28100;">fully funded Ph.D. positions</span> are currently available</u>):</strong>
@@ -141,7 +101,9 @@
                         </div> -->
                         <!-- <br> -->
 
-                        <p id="research-interests"><strong style="color:#F28100;">Research Interests</strong>.
+                        <section class="research-section" id="research-interests" aria-labelledby="research-heading">
+                        <h2 class="section-title" id="research-heading">Research Interests<span class="title-accent">.</span></h2>
+                        <p>
                           My lab studies how AI systems can make reliable decisions when information is missing or conditions change.
                           In robotics and geospatial AI, we ask what information to gather next, how to update predictions, and when there is enough information to act.
                         </p>
@@ -162,6 +124,7 @@
                             We build AI models that bring together data from different sources to understand places and environments, from broad regional patterns to local details. We study how well these models work in new places and over time, and how much confidence to place in their predictions when data are missing or collected in different ways.
                           </li>
                         </ol>
+                        </section>
 
 
 
@@ -179,17 +142,17 @@
                                 });
                         </script> -->
 
-                        <hr>
-                        <h3 id="news"><i class="fas fa-newspaper"></i> Recent News</h3>
-                        <div class="news-container" style="height: 500px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px; background-color: #f9f9f9;">
-                            <p><strong>[09/2026]</strong>Best Paper Award<i class="fas fa-trophy" style="color: #F28100;" aria-hidden="true"></i>"Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping", in 2026 IROS Workshop on WORLDS: World Models and Spatial Intelligence for Physical AI! Congrats to Jiahui Zhang, Gongbo Liang, and Yu Zhang!</p>
-                            <p><strong>[09/2026]</strong>Best Paper Runner-up<i class="fas fa-trophy" style="color: #F28100;" aria-hidden="true"></i>"Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering", in 2026 IROS Space Robotics Workshop! Congrats to Jiahui Zhang, Bonian Han, Gongbo Liang, and Yu Zhang!</p>
-                            <p><strong>[04/2026]</strong>Dr. Zhang is selected as 2026 Idaho NASA EPSCoR Faculty Fellow!</p>
-                            <p><strong>[04/2026]</strong>One paper was published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), 2026.</p>
-                            <p><strong>[04/2026]</strong>Dr. Zhang serves on an NSF panel.</p>
-                            <p><strong>[01/2026]</strong>One paper was accepted by LFMBio@WACV and selected for an oral presentation.</p>
-                            <p><strong>[09/2025]</strong>One position paper got accepted to NeurIPS 2025 Workshop on Space in Vision, Language, and Embodied AI!</p>
-                            <p><strong>[07/2025]</strong>Dr. Zhang started his tenure-track position at Boise State.</p>
+                        <section class="news-section" aria-labelledby="news">
+                        <h2 class="section-title" id="news"><i class="fas fa-newspaper" aria-hidden="true"></i> Recent News</h2>
+                        <div class="news-container">
+                            <p><strong>[09/2026]</strong><span>Best Paper Award<i class="fas fa-trophy" aria-hidden="true"></i>"Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping", in 2026 IROS Workshop on WORLDS: World Models and Spatial Intelligence for Physical AI! Congrats to Jiahui Zhang, Gongbo Liang, and Yu Zhang!</span></p>
+                            <p><strong>[09/2026]</strong><span>Best Paper Runner-up<i class="fas fa-trophy" aria-hidden="true"></i>"Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering", in 2026 IROS Space Robotics Workshop! Congrats to Jiahui Zhang, Bonian Han, Gongbo Liang, and Yu Zhang!</span></p>
+                            <p><strong>[04/2026]</strong><span>Dr. Zhang is selected as 2026 Idaho NASA EPSCoR Faculty Fellow!</span></p>
+                            <p><strong>[04/2026]</strong><span>One paper was published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), 2026.</span></p>
+                            <p><strong>[04/2026]</strong><span>Dr. Zhang serves on an NSF panel.</span></p>
+                            <p><strong>[01/2026]</strong><span>One paper was accepted by LFMBio@WACV and selected for an oral presentation.</span></p>
+                            <p><strong>[09/2025]</strong><span>One position paper got accepted to NeurIPS 2025 Workshop on Space in Vision, Language, and Embodied AI!</span></p>
+                            <p><strong>[07/2025]</strong><span>Dr. Zhang started his tenure-track position at Boise State.</span></p>
                             <!-- <p><strong>[06/2025]</strong>Dr. Zhang is attending CVPR 2025 in Nashville, TN.</p>
                             <p><strong>[02/2025]</strong>One abstract got accepted to 2025 CAE in Cybersecurity Symposium – Charleston, South Carolina!</p>
                             <p><strong>[06/2024]</strong>Dr. Zhang is attending CVPR 2024 in Seattle, WA.</p>
@@ -205,8 +168,8 @@
                             <p><strong>[09/2021]</strong>One paper got accepted to IEEE Journal of Biomedical and Health Informatics.</p>
                             <p><strong>[04/2021]</strong>One paper got accepted to CVPR NTIRE Workshop.</p> -->
                         </div>
+                        </section>
 
-                        <hr>
                             <!-- <h2 id="awards">&#127941; Awards and Grants</h2>
 
                             <h5>As Principal Investigator (August 2023 onwards)</h5>
@@ -217,13 +180,9 @@
                             <!--Insert footer-->
         </div>
     </div>
-            <div class="col-md-3 col-xs-12 content-spacing">
-                <div class="heading university-color">Yu Zhang</div>
-                <div class="row">
-                    <div class="col-md-10 col-xs-4">
-                        <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
-                    </div>
-                </div>
+            <aside class="profile" aria-label="Profile">
+                <div class="profile-name">Yu Zhang</div>
+                <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
                 <div class="info-text">
                     <i>Assistant Professor</i><br>
                     <a href="https://www.boisestate.edu/coen-cs/">Department of Computer Science</a><br>
@@ -248,12 +207,9 @@
                     <a href="https://www.linkedin.com/in/yuzh03/"> LinkedIn</a>
                     <!-- <a href="https://www.xiaohongshu.com/user/profile/61716aad000000000201caae?xhsshare=CopyLink&appuid=61716aad000000000201caae&apptime=1693197943">小红书</a> | -->
                 </div>
-            </div>
-        </div>
-    </div>
+            </aside>
+    </main>
 
-    <!--Insert footer-->
-    <div id="myFooter"></div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             fetch('footer.html?cacheBust=' + new Date().getTime())
@@ -281,12 +237,19 @@
         });
     </script>
 
-    <!-- begin code v 7.0 -->
-    <span id="wts2202831"></span>
-    <script>var wts=document.createElement('script');wts.async=true;
-    wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
-    wts.onload = function(){ wtsl7(2202831,1); };
-    </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
-    <!-- end code v 7.0 -->
+    <footer class="site-footer">
+        <div class="site-shell footer-layout">
+            <div id="myFooter"></div>
+            <div class="footer-tracker">
+                <!-- begin code v 7.0 -->
+                <span id="wts2202831"></span>
+                <script>var wts=document.createElement('script');wts.async=true;
+                wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+                wts.onload = function(){ wtsl7(2202831,1); };
+                </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
+                <!-- end code v 7.0 -->
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

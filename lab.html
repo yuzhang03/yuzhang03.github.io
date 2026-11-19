@@ -26,131 +26,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   </noscript>
+    <link rel="stylesheet" href="site.css">
 </head>
 
-<body>
-    <style>
-        body {
-            font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-        }
-
-        .heading {
-            word-wrap: break-word;
-            font-family: 'Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            white-space: nowrap;
-        }
-
-        .info-text {
-            margin-bottom: 10px;
-        }
-
-        .university-color {
-            color: #0033A0;
-        }
-
-        .link-list a {
-            margin-right: 5px;
-        }
-
-        .content-spacing {
-            margin-top: 30px;
-            /*margin-left: 20px;*/
-        }
-
-        .headshot {
-            max-width: 110%;
-            max-height: 110%;
-            margin: 0 auto;
-        }
-
-        a {
-            color: #2B5597;
-        }
-
-        .navbar-toggler-icon {
-            filter: brightness(0) invert(1);
-        }
-
-
-        .team-section {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        /* Add this to your CSS file */
-        .team-img {
-        width: 180px;         /* Set your desired width */
-        height: 180px;        /* Set your desired height */
-        object-fit: cover;    /* Crop and center the image */
-        object-position: center;
-        border-radius: 50%;   /* Optional: make it circular */
-        display: block;
-        margin: 0 auto;       /* Center the image horizontally */
-        }
-
-        .team-member {
-            margin-bottom: 30px;
-        }
-
-        .team-member h3 {
-            font-size: 20px; /* Adjust this value as needed */
-        }
-
-        .team-member .scholar-link,
-        .team-member .linkedin-link {
-            display: inline-flex;
-            align-items: center;
-            margin-left: 6px;
-            vertical-align: middle;
-        }
-
-        .team-member .scholar-icon {
-            width: 16px;
-            height: 16px;
-        }
-
-        .team-member .linkedin-icon {
-            font-size: 16px;
-            color: #0A66C2;
-        }
-
-        .team-member p {
-            margin-bottom: 5px; /* Reduce the bottom margin */
-        }
-
-        .member-status {
-            font-style: italic;
-            color: #666; /* You can change this color to suit your design */
-        }
-
-        .sponsors-section {
-        padding: 2rem 0;
-        text-align: center;
-        }
-        .sponsor-logos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        .sponsor-logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 200px;
-            height: 100px;
-        }
-        .sponsor-img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-        }
-    </style>
+<body class="page-lab">
 
     <!-- Navigation -->
     <div id="navbar"></div>
@@ -165,23 +44,22 @@
         });
     </script>
 
-    <div class="container">
-        <div class="row">
+    <main class="site-shell page-layout">
             <!-- Entries Column -->
-            <div class="col-md-9 col-xs-12 content-spacing">
-                <div class="col">
+            <div class="page-content">
+                <div class="page-copy">
                     <h3 id="join-lab">
                          Next-generatIon Computer vision and Embodied intelligence (NICE) Lab
                     </h3>
-                    <div style="margin-bottom: 20px;">
-                        <img src="images/boisestate_campus.png" alt="Boise State University Campus" style="width: 100%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    <div class="lab-campus">
+                        <img src="images/boisestate_campus.png" alt="Boise State University Campus">
                     </div>
                     
-                    <p><strong style="color:#F28100;">We welcome new members at all levels to join our Next-generatIon Computer vision and Embodied intelligence (NICE) Lab at Boise State. We have a supportive culture where you can do impactful research, learn new skills, and achieve your personal goals. </strong></p>
+                    <p class="lab-intro"><strong>We welcome new members at all levels to join our Next-generatIon Computer vision and Embodied intelligence (NICE) Lab at Boise State. We have a supportive culture where you can do impactful research, learn new skills, and achieve your personal goals. </strong></p>
 
-                    <div style="margin-left: 20px; margin-bottom: 15px;">
-                        <strong><strong style="color:#0033A0";>Why join Us at Boise State?</strong></strong>
-                        <ul style="margin-left: 20px;">
+                    <div class="lab-reasons">
+                        <strong>Why join Us at Boise State?</strong>
+                        <ul>
                             <li> Safe and welcoming community: <a href="https://visitboise.com/" target="_blank">Boise</a> is consistently ranked among the <a href="https://wallethub.com/edu/safest-cities-in-america/41926" target="_blank">safest cities in America</a>.</li>
                             <li> Top place to live: Recognized as one of the best cities for quality of life. Recognized by Wall Street Journal as <a href="https://www.wsj.com/lifestyle/travel/why-boise-might-secretly-be-the-coolest-city-in-the-pacific-northwest-9b341eb3" target="_blank">the coolest city in Pacific Northwest</a>.</li>
                             <li> Outdoor paradise: Easy access to hiking, biking, skiing, and boating, all within minutes of campus. Recognized as <a href="https://www.lonelyplanet.com/articles/boise-one-day-itinerary" target="_blank">Lonely Planet's Best Place to Travel in 2023</a>.</li>
@@ -221,7 +99,7 @@
                         </ul>
                     </div> -->
 
-                <p><strong style="color:#F28100;">How to contact?</strong> If you are interested in joining our lab, please email your intent (e.g., Ph.D. application, research volunteer, independent study project, visiting scholar, etc.) to the lab director, Dr. Yu Zhang, along with your CV, transcripts, publications (if any), and any other materials that you believe will help me understand your background. </p>
+                <p class="lab-contact"><strong>How to contact?</strong> If you are interested in joining our lab, please email your intent (e.g., Ph.D. application, research volunteer, independent study project, visiting scholar, etc.) to the lab director, Dr. Yu Zhang, along with your CV, transcripts, publications (if any), and any other materials that you believe will help me understand your background. </p>
 
 
 
@@ -231,7 +109,7 @@
                 <hr>
                 <!-- <h3 class="text-center">Our Team</h3> -->
 
-                <p><strong>Lab Director</strong></p>
+                <p class="lab-section-heading"><strong>Lab Director</strong></p>
                 <div class="team-section">
                     <div class="row">
 
@@ -255,7 +133,7 @@
 
                 <hr>
 
-                <p><strong>Current Members</strong></p>
+                <p class="lab-section-heading"><strong>Current Members</strong></p>
                 <div class="team-section">
                 <div class="row">
 
@@ -311,10 +189,10 @@
             </div>
 
             <hr>
-            <p><strong>Alumni</strong></p>
+            <p class="lab-section-heading"><strong>Alumni</strong></p>
             <!-- <p class="text-center">We greatly appreciate the contributions of our past members:</p> -->
 
-            <div style="text-align: left; margin: 20px;">
+            <div class="lab-alumni">
                 <a href="https://www.linkedin.com/in/james-wei-1b3473355/">James Wei</a> - Undergraduate Research Assistant, Stanford University, Summer 2026<br>
                 <!-- <a href="https://thl-leo.vercel.app/">Leo Lee</a> - ML/Database System - Master Student (ltlee@usc.edu) <br> -->
             </div>
@@ -335,13 +213,9 @@
 
 
             </div>
-            <div class="col-md-3 col-xs-12 content-spacing">
-                <div class="heading university-color">Yu Zhang</div>
-                <div class="row">
-                    <div class="col-md-10 col-xs-4">
-                        <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
-                    </div>
-                </div>
+            <aside class="profile" aria-label="Profile">
+                <div class="profile-name">Yu Zhang</div>
+                <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
                 <div class="info-text">
                     <i>Assistant Professor</i><br>
                     <a href="https://www.boisestate.edu/coen-cs/"> Department of Computer Science</a><br>
@@ -366,12 +240,9 @@
                     <a href="https://www.linkedin.com/in/yuzh03/"> LinkedIn</a>
                     <!-- <a href="https://www.xiaohongshu.com/user/profile/61716aad000000000201caae?xhsshare=CopyLink&appuid=61716aad000000000201caae&apptime=1693197943">小红书</a> | -->
                 </div>
-            </div>
-        </div>
-    </div>
+            </aside>
+    </main>
 
-    <!--Insert footer-->
-    <div id="myFooter"></div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             fetch('footer.html?cacheBust=' + new Date().getTime())
@@ -395,12 +266,19 @@
         });
     </script>
 
-    <!-- begin code v 7.0 -->
-    <span id="wts2202831"></span>
-    <script>var wts=document.createElement('script');wts.async=true;
-    wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
-    wts.onload = function(){ wtsl7(2202831,1); };
-    </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
-    <!-- end code v 7.0 -->
+    <footer class="site-footer">
+        <div class="site-shell footer-layout">
+            <div id="myFooter"></div>
+            <div class="footer-tracker">
+                <!-- begin code v 7.0 -->
+                <span id="wts2202831"></span>
+                <script>var wts=document.createElement('script');wts.async=true;
+                wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+                wts.onload = function(){ wtsl7(2202831,1); };
+                </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
+                <!-- end code v 7.0 -->
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

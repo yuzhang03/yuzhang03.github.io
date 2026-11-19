@@ -26,56 +26,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   </noscript>
+    <link rel="stylesheet" href="site.css">
 </head>
 
 
-<body>
-    <style>
-        body {
-            font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-        }
-
-        .heading {
-            word-wrap: break-word;
-            font-family: 'Poppins', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            white-space: nowrap;
-        }
-
-        .info-text {
-            margin-bottom: 10px;
-        }
-
-        .university-color {
-            color: #0033A0;
-        }
-
-        .link-list a {
-            margin-right: 5px;
-        }
-
-        .content-spacing {
-            margin-top: 30px;
-            /*margin-left: 20px;*/
-        }
-
-        .headshot {
-            max-width: 110%;
-            max-height: 110%;
-            margin: 0 auto;
-        }
-
-        a {
-            color: #2B5597;
-        }
-
-        .navbar-toggler-icon {
-            filter: brightness(0) invert(1);
-        }
-
-    </style>
+<body class="page-teaching">
 
     <!-- Navigation -->
     <div id="navbar"></div>
@@ -90,12 +45,11 @@
         });
     </script>
 
-    <div class="container">
-        <div class="row">
+    <main class="site-shell page-layout">
             <!-- Entries Column -->
-            <div class="col-md-9 col-xs-12 content-spacing">
-                <div class="col">
-                    <h2 id="teaching">&#128175; Teaching</h2>
+            <div class="page-content">
+                <div class="page-copy">
+                    <h2 id="teaching"><span class="page-heading-icon" aria-hidden="true">&#128175;</span> Teaching</h2>
                     <h4>As an Instructor</h4>
                     <p><em>Boise State University</em></p>
                     <ul>
@@ -112,13 +66,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-xs-12 content-spacing">
-                <div class="heading university-color">Yu Zhang</div>
-                <div class="row">
-                    <div class="col-md-10 col-xs-4">
-                        <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
-                    </div>
-                </div>
+            <aside class="profile" aria-label="Profile">
+                <div class="profile-name">Yu Zhang</div>
+                <img class="img-fluid headshot" src="images/yuzhang03.png" alt="Avatar of Yu Zhang">
                 <div class="info-text">
                     <i>Assistant Professor</i><br>
                     <a href="https://www.boisestate.edu/coen-cs/"> Department of Computer Science</a><br>
@@ -143,12 +93,9 @@
                     <a href="https://www.linkedin.com/in/yuzh03/"> LinkedIn</a>
                     <!-- <a href="https://www.xiaohongshu.com/user/profile/61716aad000000000201caae?xhsshare=CopyLink&appuid=61716aad000000000201caae&apptime=1693197943">小红书</a> | -->
                 </div>
-            </div>
-        </div>
-    </div>
+            </aside>
+    </main>
 
-    <!--Insert footer-->
-    <div id="myFooter"></div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             fetch('footer.html?cacheBust=' + new Date().getTime())
@@ -172,12 +119,19 @@
         });
     </script>
 
-    <!-- begin code v 7.0 -->
-    <span id="wts2202831"></span>
-    <script>var wts=document.createElement('script');wts.async=true;
-    wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
-    wts.onload = function(){ wtsl7(2202831,1); };
-    </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
-    <!-- end code v 7.0 -->
+    <footer class="site-footer">
+        <div class="site-shell footer-layout">
+            <div id="myFooter"></div>
+            <div class="footer-tracker">
+                <!-- begin code v 7.0 -->
+                <span id="wts2202831"></span>
+                <script>var wts=document.createElement('script');wts.async=true;
+                wts.src='https://app.ardalio.com/wts7.js';document.head.appendChild(wts);
+                wts.onload = function(){ wtsl7(2202831,1); };
+                </script><noscript><img src="https://app.ardalio.com/7/1/2202831.png"></noscript>
+                <!-- end code v 7.0 -->
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
