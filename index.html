@@ -210,19 +210,7 @@
             </aside>
     </main>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch('footer.html?cacheBust=' + new Date().getTime())
-            .then(response => response.text())
-            .then(content => {
-                document.getElementById('myFooter').innerHTML = content;
-            })
-            .catch(error => {
-                console.error('Error loading footer:', error);
-                document.getElementById('myFooter').innerHTML = '<p>Error loading footer. Please host on a server.</p>';
-            });
-        });
-    </script>
+    <script type="module" src="footer.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             fetch('navbar.html?cacheBust=' + new Date().getTime())
